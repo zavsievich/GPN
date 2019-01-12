@@ -1,0 +1,148 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeueCyr-Medium.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --white: #cbcbcb;
+    --yellow: #c7c20e;
+    --gray: #a8a8a8;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: HelveticaNeue, sans-serif;
+    line-height: 1.5;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+li{
+    list-style: none;
+}
+
+#wrapper{
+    color: var(--white);
+}
+
+.container{
+    display: grid;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0.2rem;
+}
+
+/* Styles for header */
+
+#header{
+    background-image: url(../img/main-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--white);
+}
+
+.hgroup{
+    display: grid;
+    text-align: center;
+    height: 82vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.head-element{
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.head-element-left{
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.head-element-left::after{
+    content: "";
+    margin-top: 100px;
+    margin-left: 140px;
+    height: 400px;
+    width: 2px;
+    background-color: var(--yellow);
+    display: block;
+    
+}
+
+.head-element-right{
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.head-element-right::before{
+    content: "";
+    margin-bottom: 110px; 
+    margin-left: 300px;
+    height: 500px;
+    width: 2px;
+    background-color: var(--yellow);
+    display: block;
+}
+
+/* Styles for navigation */
+
+.navbar{
+    margin-top: 0.7rem;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.navbar-link-brand{
+    float: left;
+    margin-right: 2.5rem;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#main-nav a:hover {
+    color: var(--yellow);
+    transition: 0.3s;
+}
+
+.navbar-link-toggle{
+    display: none;
+}
+
+/* Styles for #section1 */
+
+#section1{
+    background-image: url(../img/second-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Styles for #section2 */
+
+#section2{
+    background-image: url(../img/third-bg.jpg);
+}
+
+
+
+
