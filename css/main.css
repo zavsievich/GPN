@@ -129,19 +129,272 @@ li{
 
 #section1{
     background-image: url(../img/second-bg.jpg);
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    border-bottom: 3px solid #2f2d2b;
+    display: grid;
+    padding-top: 3rem;
+    grid-row-gap: 1rem;
+    height: 100vh;
+}
+
+.section-head-element{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.stripe{
+    margin: auto;
+    color: var(--yellow);
+    margin-bottom: 0.7rem;
+    height: 2px;
+}
+
+.stripe-1-big{
+    width: 28rem;
+}
+
+.stripe-1-small{
+    width: 21rem;
+}
+
+.container-for-row{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    margin: 5rem auto; 
+    grid-column-gap: 10rem;
+    font-size: 1.5rem;
+}
+
+.container-box{
+    display: grid;
+    text-align: center;
+}
+
+.container-box img{
+    margin: auto;
+}
+
+.stripe-2-big{
+    width: 23rem;
+}
+
+.stripe-2-small{
+    width: 15rem;
+    margin-bottom: 3rem;
+}
+
+.text-section-1{
+    padding: 0 7px;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.text-section-1-left{
+    border-left: 2px solid var(--yellow);
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.text-section-1-right{
+    border-right: 2px solid var(--yellow);
+    margin-left: auto;
+    text-align: right;
 }
 
 /* Styles for #section2 */
 
 #section2{
     background-image: url(../img/third-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-bottom: 4px solid #353636;
+    padding-top: 3rem;
 }
+
+.head-2{
+    /*border-left: 2px solid var(--yellow);
+    border-right: 2px solid var(--yellow);
+    margin: auto;*/
+    padding: 0 15px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.head-2::before,
+.head-2::after
+{
+    background-color: var(--yellow);
+    content: "";
+    height: 2rem;
+    width: 2px;
+    display: inline-block;
+}
+
+.button-rows{
+    margin-left: 200px;
+}
+
+.btn{
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 3rem;
+}
+
+.btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+ }
+
+.btn:hover{
+    border-bottom: 2px solid var(--yellow);
+}
+
+
+
+#section3, 
+#section4,
+#section5{
+    background-image: url(../img/sikkema.jpg);
+    padding-top: 3rem;
+}
+
+/* Styles for #section 3 */
+
+#section3{
+    border-bottom: 3px solid #3a3a3b;
+}
+
+.head-3::before,
+.head-3::after
+{
+    background-color: var(--yellow);
+    content: "";
+    height: 2rem;
+    width: 2px;
+    display: inline-block;
+}
+
+/* Styles for #section 4 */
+
+#section4{
+    border-bottom: 3px solid #9c9c9d;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.stripe-3-big{
+    width: 34rem;
+}
+
+.stripe-3-small{
+    width: 20rem;
+    margin-bottom: 4rem;
+}
+
+.comments{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.comment{
+    margin: auto;
+    text-align: center;
+}
+
+.round-image{
+    border-radius: 50%;
+}
+
+.user-name{
+    color: var(--yellow);
+    display: block;
+}
+
+.comment-text{
+    height: 200px;
+}
+
+/* Styles for #section 5 */
+
+#section5{
+    border-bottom: 5px solid var(--yellow);
+    font-size: 1.5rem;
+}
+
+.head-5{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+label{
+    display: block;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #1e1e1e;
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.container-for-three-parts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.left-part{
+    margin: auto;
+}
+
+.center-part{
+    margin: auto;
+}
+
+.right-part{
+    
+}
+
+.container-for-two{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer-navbar-link a:hover{
+    color: var(--yellow);
+    transition: 0.3s;
+}
+
+#footer-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom-part{
+    font-size: 1rem;
+    margin: auto;
+}
+
+
+
 
 
 
