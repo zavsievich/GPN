@@ -15,7 +15,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: HelveticaNeue, sans-serif;
+    font-family: 'HelveticaNeue', sans-serif;
     line-height: 1.5;
     
 }
@@ -242,9 +242,90 @@ li{
     display: inline-block;
 }
 
-.button-rows{
+.button-rows,
+.table-grid
+{
     margin-left: 200px;
 }
+
+.table-grid{
+    display: grid;
+    font-size: 1.5rem;
+} 
+
+.grid-row{
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    align-items: center;
+}
+
+.right-side{
+    justify-self: center;
+}
+
+.small-text{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.overlay {
+    /*display: none;*/
+    position: fixed;
+    top: 0;  
+    left: 0;
+    bottom: 0;    
+    right: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.overlay.active{
+    display: block;
+}
+
+.overlay-content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.overlay-head-element{
+    font-size: 3rem;
+}
+
+.overlay-fieldset{
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.btn:focus{
+    color: var(--yellow);
+}
+
+/*
+.left-row::after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    display: block;
+}
+
+.right-row::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    display: inline-block;
+}
+*/
+
+
 
 .btn{
     padding: 0;
@@ -267,10 +348,10 @@ li{
 }
 
 
-
 #section3, 
 #section4,
 #section5{
+    color: var(--white);
     background-image: url(../img/sikkema.jpg);
     padding-top: 3rem;
 }
@@ -327,6 +408,11 @@ li{
     display: block;
 }
 
+.user-name:hover{
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
 .comment-text{
     height: 200px;
 }
@@ -343,8 +429,55 @@ li{
     margin-bottom: 2rem;
 }
 
-label{
-    display: block;
+#form{
+    display: grid;
+    width: 50vw;
+    margin: auto;
+}
+
+.form-name{
+    text-align: center;
+}
+
+.container-for-labels{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.label{
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    font-size: 1.5rem;;
+}
+
+.fieldset{
+    display: grid;
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    border: 5px solid white;
+    margin-bottom: 1rem;
+}
+
+.btn-sbm{
+    width: 200px;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--yellow);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.btn-sbm:hover{
+    color: var(--yellow);
 }
 
 /* Footer */
@@ -380,7 +513,7 @@ label{
 
 .footer-navbar-link a:hover{
     color: var(--yellow);
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #footer-nav{
@@ -393,6 +526,10 @@ label{
     margin: auto;
 }
 
+
+@media (min-height: 1100px) {
+
+}
 
 
 
