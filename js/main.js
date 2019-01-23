@@ -58,3 +58,22 @@ function showTarget(targets, targetId) {
 prices()
 
 /* popUp */
+
+var link = $('.big-text'),
+    close = $('.close'),
+    ovl = $('.overlay');
+
+link.on('click', function() {
+    ovl.addClass('active');
+});
+
+close.on('click', function () {
+    $(ovl).removeClass('active');
+})
+
+/*
+ovl.on('click', function(e) {
+    if (!$(e.target).hasClass('overlay-content')) {
+        $(this).removeClass('active');
+    };
+});*/
