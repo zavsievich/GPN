@@ -1,9 +1,15 @@
 <?php
 
-$name = $_POST['name'];
-$number = $_POST['number'];
-$model = $_POST['model'];
-$problem = $_POST['problem'];
+/*
+$recepient = "gpnserv@gmail.com";
+*/
+$recepient = "avszak@gmail.com";
+$sitename = "GPN service";
+
+$name = $_POST["name"];
+$number = $_POST["number"];
+$model = $_POST["model"];
+$problem = $_POST["problem"];
 
 $name = htmlspecialchars($name);
 $number = htmlspecialchars($number);
@@ -20,6 +26,7 @@ $number = trim($number);
 $model = trim($model);
 $problem = trim($problem);
 
-if(mail("gpnserv@gmail.com", "Заявка с сайта", "Имя:".$name.". "Модель телефона:".$model.". "Проблема:".$problem.". Номер телефона: ".$number \r\n"));
+$message = "Имя: $name \nТелефон: $phone \nМодель: $model\nПроблема: $problem";
 
-?>
+$pagetitle = "Новая заявка с сайта \"$sitename\"";
+mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");
