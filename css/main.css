@@ -668,6 +668,7 @@ li{
 .form-name{
     text-align: center;
     color: var(--yellow);
+    text-transform: uppercase;
 }
 
 .container-for-labels{
