@@ -265,7 +265,7 @@ li{
 .button-rows,
 #table-grid
 {
-    margin-left: 200px;
+    margin-left: 220px;
 }
 
 #table-grid{
@@ -646,7 +646,7 @@ li{
 }
 
 .comment-text{
-    height: 200px;
+    max-height: 200px;
     color: var(--gray);
 }
 
@@ -805,10 +805,7 @@ input{
         height: 200px;
     }
 
-    .navbar-link{
-        margin-bottom: 30px;
-        font-size: 2rem;
-    }
+    
 }
 
 @media (max-height: 635px) {
@@ -820,9 +817,7 @@ input{
 }
 
 @media (max-height: 609px) {
-    .navbar-link{
-        font-size: 1rem;
-    }
+    
 }
 
 
@@ -863,10 +858,7 @@ input{
         justify-content: flex-start;
     }
 
-    .navbar-link{
-        font-size: 3.5rem;
-        margin-bottom: 2rem;
-    }
+    
 
     .navbar-link-toggle{
         align-self: flex-end;
@@ -935,8 +927,13 @@ input{
 
 @media (max-width: 986px) {
     .comments{
+        font-size: 1rem;
         grid-template-columns: 1fr;
         grid-gap: 30px;
+    }
+
+    .comment-text{
+        height: ;
     }
 
     .container-for-labels{
@@ -1020,10 +1017,6 @@ input{
 }
 
 @media (max-width: 425px) {
-    .navbar-link{
-        font-size: 2.5rem;
-    }
-
     .bottom-form{
         text-align: center;
     }
@@ -1053,11 +1046,6 @@ input{
     }
 }
 
-@media (max-width: 305px) {
-    .navbar-link{
-        font-size: 2rem;
-    }
-}
 
 @media (max-width: 284px) {
     .bottom-form{
@@ -1076,9 +1064,7 @@ input{
 }
 
 @media (max-width: 253px) {
-    .navbar-link{
-        font-size: 1.5rem;
-    }
+    
 }
 
 
