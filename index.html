@@ -21,7 +21,7 @@
                         <img src="img/bars-solid.svg" width="30px" alt="Меню">
                     </div>
                     <nav class="navbar-items">
-                        <div class="navbar-link"><a href="#section1">О Нас</a></div>
+                        <div class="navbar-link"><a href="#section1">О нас</a></div>
                         <div class="navbar-link"><a href="#container-2">Преимущества</a></div>
                         <div class="navbar-link"><a href="#section2">Цены</a></div>
                         <div class="navbar-link"><a href="#section3">Акции и скидки</a></div>
@@ -29,13 +29,41 @@
                         <div class="navbar-link"><a href="#footer">Контакты</a></div>
                     </nav>
                 </div>
-                <hgroup class="hgroup">
-                    <h1 class="head-element head-element-left">Выездной ремонт<br>iPhone в минске</h1>
-                    <h2 class="head-element head-element-right">
-                        мы там,<br>где удобно тебе
-                    </h2>
-                </hgroup>
+                <div class="first-container">
+                    <hgroup class="hgroup">
+                        <h1 class="head-element head-element-left">Выездной ремонт<br>iPhone в минске</h1>
+                        <h2 class="head-element head-element-right">
+                            мы там,<br>где удобно тебе
+                        </h2>
+                    </hgroup>
+                    <div class="top-content">
+                        <h4 class="top-head-element head-element">
+                            Отправка заявки
+                        </h4>
+                        <form id="top-form" class="top-form form" method="POST" >
+                            <fieldset class="top-fieldset">
+                                <div class="top-form-name">
+                                </div>
+                                <div class="top-container-for-labels">
+                                    <label class="top-label">
+                                        Ваше имя
+                                        <br>
+                                        <input type="text" placeholder="Имя" name="name">
+                                    </label>
+                                    <br>
+                                    <label class="top-label">
+                                        Ваш телефон
+                                        <br>
+                                        <input type="text" required placeholder="Номер телефона" name="number">
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <button class="top-btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
             </div>
+
         </header>
         <main id="main">
         <section id="section1" class="section">
@@ -301,29 +329,17 @@
                             </div>
                             <div class="overlay-container-for-labels">
                                 <label class="overlay-label">
-                                    Ваше имя:
+                                    Ваше имя
                                     <br>
                                     <input type="text" placeholder="Имя" name="name">
                                 </label>
                                 <br>
                                 <label class="overlay-label">
-                                    Ваш телефон:
+                                    Ваш телефон
                                     <br>
                                     <input type="text" required placeholder="Номер телефона" name="number">
                                 </label>
-                                <br><!--
-                                <label class="overlay-label">
-                                    Модель iPhone:
-                                    <br>
-                                    <input type="text"  placeholder="Модель" name="model">
-                                </label>
                                 <br>
-                                <label class="overlay-label">
-                                    Что случилось?
-                                    <br>
-                                    <input type="text"  placeholder="Проблема" name="problem">
-                                </label>
-                                -->
                             </div>
                         </fieldset>
                         <button class="overlay-btn">Отправить</button>
@@ -450,12 +466,12 @@
                         </div>
                         <div class="container-for-labels">
                             <label class="label">
-                                Имя:
+                                Ваше мя
                                 <br>
                                 <input type="text" placeholder="Ваше имя" name="name">
                             </label>
                             <label class="label">
-                                Телефон:
+                                Ваш телефон
                                 <br>
                                 <input type="text" required placeholder="Номер телефона" name="number">
                             </label>
