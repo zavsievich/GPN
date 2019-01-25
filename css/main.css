@@ -44,6 +44,7 @@
 
 html{
     overflow-x: hidden;
+    padding: 0 1px;
 }
 
 a{
@@ -956,31 +957,22 @@ input{
         align-items: flex-end;
     }
 
+    .hgroup{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+
+    .head-element-left,
+    .head-element-right{
+        margin: 0;
+    }
+
     .head-element-right::before,
     .head-element-left::after
     {
         display: none;
     }
 
-    .first-container{
-
-    }
-
-    .head-element-left{
-        
-    }
-
-    .head-element-right{
-        
-    }
-
-    .top-content{
-        
-    }
-
-    .first-container{
-        
-    }
 }
 
 @media (max-width: 1050px) {
@@ -1000,17 +992,18 @@ input{
 }
 
 @media (max-width: 990px) {
-    .hgroup{
+    /*.hgroup{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         font-weight: bold;
-    }
+    }*/
 
+    /*
     .head-element-left,
     .head-element-right {
         margin: auto;
     }
-
+*/
     .container-for-three-parts{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1057,6 +1050,30 @@ input{
     .top-content{
         display: none;
     }
+
+    .first-container{
+        grid-template-columns: 1fr;
+    }
+
+    .hgroup{
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: 100%;
+        
+    }   
+
+    .head-element-left,
+    .head-element-right{
+        font-weight: 900;
+    }
+
+    .head-element-left{
+        
+    }
+    /*.hgroup{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }*/
 }
 
 @media (max-width: 578px){
@@ -1119,15 +1136,17 @@ input{
         font-size: 1.5rem;
     }
 
-    .head-element{
-        font-size: 2rem;
-    }
-    
     .bottom-form{
         font-size: 1rem;
         width: 80vw;
     }
 
+}
+
+@media (max-width: 270px) {
+    .head-element{
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 425px) {
@@ -1155,9 +1174,9 @@ input{
 }
 
 @media (max-width: 312px) {
-    .head-element{
+    /*.head-element{
         font-size: 1.7rem;
-    }
+    }*/
 
     .slide{
         width: 100vw;
