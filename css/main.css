@@ -3,18 +3,25 @@
     src: /*url(../fonts/HelveticaNeueCyr-UltraLightItalic.woff) format('woff'),
          url(../fonts/HelveticaNeueCyr-UltraLight.woff) format('woff'),
          url(../fonts/HelveticaNeueCyr-ThinItalic.woff) format('woff'),
-         url(../fonts/HelveticaNeueCyr-Thin.woff) format('woff'),*/
-         url(../fonts/HelveticaNeueCyr-Roman.woff) format('woff');
+         */
+         url(../fonts/HelveticaNeueCyr-Thin.woff) format('woff'),
          /*
+         url(../fonts/HelveticaNeueCyr-Roman.woff) format('woff'),
          url(../fonts/HelveticaNeueCyr-MediumItalic.woff) format('woff'),
+         */
          url(../fonts/HelveticaNeueCyr-Medium.woff) format('woff'),
+         /*
          url(../fonts/HelveticaNeueCyr-LightItalic.woff) format('woff'),
          url(../fonts/HelveticaNeueCyr-Light.woff) format('woff'),
          url(../fonts/HelveticaNeueCyr-Italic.woff) format('woff'),
          url(../fonts/HelveticaNeueCyr-HeavyItalic.woff) format('woff'),
+         */
          url(../fonts/HelveticaNeueCyr-Heavy.woff) format('woff'),
+         /*
          url(../fonts/HelveticaNeueCyr-BoldItalic.woff) format('woff'),
-         url(../fonts/HelveticaNeueCyr-Bold.woff) format('woff'),
+         */
+         url(../fonts/HelveticaNeueCyr-Bold.woff) format('woff');
+         /*
          url(../fonts/HelveticaNeueCyr-BlackItalic.woff) format('woff'),
          url(../fonts/HelveticaNeueCyr-Black.woff) format('woff');*/
 }
