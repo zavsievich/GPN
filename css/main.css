@@ -319,10 +319,10 @@ li{
 .overlay {
     display: none;
     position: fixed;
-    top: 5vh;
-    left: 30vw;
-    right: 30vw;
-    bottom: 5vh;
+    top: 10vh;
+    left: 38vw;
+    right: 38vw;
+    bottom: 30vh;
     background: rgba(0,0,0,0.8) !important;
     font-size: 2rem;
     border: 2px solid var(--yellow);
@@ -354,6 +354,11 @@ li{
     border-bottom: 1px solid var(--yellow);
     margin-left: 40px;
     margin-top: 20px;
+}
+
+.close:hover {
+    color: var(--yellow);
+    transition: 0.5s;
 }
 
 .overlay-form{
