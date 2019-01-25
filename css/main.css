@@ -941,8 +941,10 @@ input{
         display: none;
         position: absolute;
         margin-top: 70px;
+        width: calc(100vw - 20px);
         height: calc(100vh - 100px);
         justify-content: flex-start;
+        font-size: 3rem;d
     }
 
     .navbar-link-toggle{
@@ -1140,13 +1142,6 @@ input{
         font-size: 1rem;
         width: 80vw;
     }
-
-}
-
-@media (max-width: 270px) {
-    .head-element{
-        font-size: 2rem;
-    }
 }
 
 @media (max-width: 425px) {
@@ -1154,6 +1149,13 @@ input{
         text-align: center;
     }
 }
+
+@media (max-width: 400px) {
+    .navbar-items {
+        font-size: 2.5rem;
+    }
+}
+
 
 @media (max-width: 382px) {
     .stripe-2-big{
@@ -1170,6 +1172,12 @@ input{
     .head-3::before,
     .head-3::after{
         display: none;
+    }
+}
+
+@media (max-width: 335px) {
+    .navbar-items{
+        font-size: 2rem;
     }
 }
 
@@ -1193,6 +1201,18 @@ input{
         width: 90vw;
     }
 }
+
+
+@media (max-width: 270px) {
+    .head-element{
+        font-size: 2rem;
+    }
+
+    .navbar-items{
+        font-size: 1.5rem;
+    }
+}
+
 
 @media (max-width: 260px) {
     .bottom-form{
