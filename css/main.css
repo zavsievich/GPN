@@ -48,6 +48,10 @@ li{
     padding-bottom: 1rem;
 }
 
+.section{
+    z-index: 1300;
+}
+
 /* Styles for header */
 
 #header{
@@ -1031,6 +1035,12 @@ input{
     .head-3::before,
     .head-3::after{
         display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .bottom-form{
+        margin-right: auto;
     }
 }
 
