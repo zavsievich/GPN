@@ -92,7 +92,6 @@ li{
     display: flex;
     margin-top: 0.7rem;
     font-size: 1.8rem;
-    margin-bottom: 2.5rem;
     color: var(--gray);
     
 }
@@ -122,11 +121,15 @@ li{
     grid-template-columns: 1fr 1fr;
 }
 
+.first-container .top-content{
+    align-items: center;
+}
+
 .hgroup{
     display: grid;
     text-align: center;
     height: 82vh;
-    grid-template-columns: 435px 435px;
+    grid-template-columns: 480px 435px;
     color: var(--white);
 }
 
@@ -169,6 +172,7 @@ li{
 /* Styles for top-form */
 
 .top-content{
+    align-self: center;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -179,7 +183,7 @@ li{
     grid-gap: 2rem;
     border: 2px solid var(--yellow);
     padding: 20px 0;
-    max-height: 560px;
+    max-height: 500px;
 }
 
 .top-head-element{
@@ -878,7 +882,7 @@ input{
     .head-element-right::before{
         height: 400px;
     }
-
+    /*
     .overlay{
         visibility: hidden;
     }
@@ -886,6 +890,7 @@ input{
     .big-text{
         cursor: default;
     }
+    */
 }
 
 @media (max-height: 775px) {
@@ -905,6 +910,16 @@ input{
     .head-element-left::after
     {
         display: none;
+    }
+}
+
+@media (max-height: 620px) {
+    .overlay{
+        font-size: 1.5rem;
+    }
+
+    .overlay-head-element{
+        margin: 10px auto;
     }
 }
 
