@@ -206,9 +206,6 @@ li{
     margin-top: 1rem;
 }
 
-#top-form{
-}
-
 .top-fieldset{
     max-width: 425px;
     border: 0;
@@ -1080,9 +1077,7 @@ input{
         grid-gap: 30px;
     }
 
-    .comment-text{
-        height: ;
-    }
+    
 
     .container-for-labels{
         grid-template-columns: 1fr;
@@ -1117,14 +1112,6 @@ input{
     .head-element-right{
         font-weight: 900;
     }
-
-    .head-element-left{
-        
-    }
-    /*.hgroup{
-        width: 100%;
-        grid-template-columns: 1fr;
-    }*/
 }
 
 @media (max-width: 578px){
@@ -1209,6 +1196,11 @@ input{
 @media (max-width: 440px) {
     .head-element{
         font-size: 2rem;
+    }
+
+    .head-element-right{
+        margin-top: auto;
+        margin-bottom: 2rem;
     }
 }
  
