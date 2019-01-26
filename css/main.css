@@ -346,6 +346,15 @@ li{
     margin-left: 220px;
 }
 
+.button-rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    margin-right: 50px;
+}
+
 #table-grid{
     display: grid;
     font-size: 1.5rem;
@@ -397,7 +406,7 @@ li{
     top: 10vh;
     left: 38vw;
     right: 38vw;
-    bottom: 30vh;
+    bottom: 20vh;
     background: rgba(0,0,0,0.8) !important;
     font-size: 2rem;
     border: 2px solid var(--yellow);
@@ -480,7 +489,7 @@ li{
 
 .button-rows .btn{
     font-size: 2rem;
-    margin-right: 3rem;
+    /*margin-right: 3rem;*/
 }
 
 .btn:active {
@@ -899,10 +908,6 @@ input{
     }
 }
 
-@media (max-height: 609px) {
-    
-}
-
 @media (max-width: 1670px) {
     .left-side{
         margin-bottom: 20px;
@@ -1150,6 +1155,12 @@ input{
     }
 }
 
+@media (max-width: 440px) {
+    .head-element{
+        font-size: 2rem;
+    }
+}
+ 
 @media (max-width: 425px) {
     .bottom-form{
         text-align: center;
@@ -1187,17 +1198,10 @@ input{
     }
 }
 
-@media (max-width: 312px) {
-    /*.head-element{
-        font-size: 1.7rem;
-    }*/
-
-    .slide{
-        width: 100vw;
-    }
+@media (max-width: 358px) {
 
     .slide-img{
-        width: 250px;
+        max-width: 250px;
     }
 }
 
@@ -1210,10 +1214,6 @@ input{
 
 
 @media (max-width: 270px) {
-    .head-element{
-        font-size: 2rem;
-    }
-
     .navbar-items{
         font-size: 1.5rem;
     }
@@ -1233,6 +1233,9 @@ input{
 @media (max-width: 253px) {
     
 }
+
+
+
 
 
 
