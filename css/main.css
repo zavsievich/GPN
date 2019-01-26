@@ -105,8 +105,9 @@ li{
     
 }
 
-.navbar-link-brand{
+.navbar-link-brand img{
     margin-bottom: 12px;
+    width: 110px;
 }
 
 .navbar-items{
@@ -977,6 +978,10 @@ input{
 
     .navbar{
         margin-bottom: 50px;
+    }
+
+    .navbar-link-brand img{
+        width: 70px;
     }
 
     .navbar-items{
