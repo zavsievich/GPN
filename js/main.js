@@ -127,7 +127,7 @@ function showSlides(n) {
 }
 
 /* Form on AJAX */
-
+/*
 $(document).ready(function() {
 
 	$(".form").submit(function() {
@@ -144,3 +144,4 @@ $(document).ready(function() {
 	});
 });
 
+*/
