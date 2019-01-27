@@ -80,12 +80,12 @@ li{
 
 #header{
     background-image: url(../img/main-bg.jpg);
-    height: 102vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 102vh;
     color: var(--gray);
     
 }
@@ -193,26 +193,25 @@ li{
     justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
-    max-width: 425px;
     margin-left: auto;
     text-align: center;
     grid-gap: 2rem;
     border: 2px solid var(--yellow);
-    padding: 20px 0;
-    max-height: 500px;
+    padding: 20px 10px;
+    font-weight: bolder;
 }
 
 .top-head-element{
-    margin-top: 1rem;
+    margin-top: 20px;
+    font-size: 2rem;
 }
 
 .top-fieldset{
-    max-width: 425px;
     border: 0;
 }
 
 .top-label{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
@@ -930,18 +929,22 @@ input{
 }
 
 @media (max-height: 620px) {
+    /*
     .overlay{
         font-size: 1.5rem;
     }
 
     .overlay-head-element{
         margin: 10px auto;
-    }
+    }*/
 }
 
-@media (max-width: 1640px) {
-    .container{
-        padding: 0 30px;
+
+
+
+@media (max-width: 1660px) {
+    .top-content{
+        
     }
 }
 
@@ -960,6 +963,15 @@ input{
        border-left: 2px solid var(--yellow);
        border-right: 2px solid var(--yellow);
    }
+}
+
+@media (max-width: 1600px) {
+    .overlay{
+        top: 5vh;
+        right: 10vw;
+        bottom: 5vh;
+        left: 10vw;
+    }
 }
 
 @media (max-width: 1110px) {
@@ -1057,12 +1069,12 @@ input{
 }
 
 @media (max-width: 950px) {
-    .overlay{
+    /*.overlay{
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    }
+    }*/
 }
 
 @media (max-width: 986px) {
@@ -1125,11 +1137,11 @@ input{
         width: 7rem;
         margin-bottom: 4rem;
     }
-
+/*
     .overlay-head-element{
         font-size: 2rem;
     }
-
+*/
     
 }
 
@@ -1200,6 +1212,23 @@ input{
     }
 }
  
+@media (max-width: 435px) {
+    .overlay {
+        top: 5vh;
+        bottom: 5vh;
+        left: 5vw;
+        right: 5vw;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .overlay-head-element {
+        font-size: 1.5rem;
+       
+    }
+
+}
+
 @media (max-width: 425px) {
     .bottom-form{
         text-align: center;
