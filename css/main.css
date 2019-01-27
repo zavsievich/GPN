@@ -1208,7 +1208,7 @@ input{
 
     .head-element-right{
         margin-top: auto;
-        margin-bottom: 2rem;
+        margin-bottom: 7rem;
     }
 }
  
@@ -1224,7 +1224,6 @@ input{
 
     .overlay-head-element {
         font-size: 1.5rem;
-       
     }
 
 }
@@ -1239,8 +1238,12 @@ input{
     .navbar-items {
         font-size: 2.5rem;
     }
-}
 
+    .head-3::before,
+    .head-3::after{
+        display: none;
+    }
+}
 
 @media (max-width: 382px) {
     .stripe-2-big{
@@ -1253,12 +1256,7 @@ input{
     }
 }
 
-@media (max-width: 376px) {
-    .head-3::before,
-    .head-3::after{
-        display: none;
-    }
-}
+
 
 @media (max-width: 365px) {
     .head-2::after,
@@ -1275,9 +1273,9 @@ input{
 
 @media (max-width: 358px) {
 
-    .slide-img{
+    /*.slide-img{
         max-width: 250px;
-    }
+    }*/
 }
 
 
