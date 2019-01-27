@@ -1278,6 +1278,11 @@ input{
     }*/
 }
 
+@media (max-width: 310px) {
+    .text-section-1-right {
+        margin-bottom: 2px;
+    }
+}
 
 @media (max-width: 284px) {
     .bottom-form{
