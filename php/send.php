@@ -29,5 +29,5 @@ if ($sendToTelegram) {
   } else {
   header ("Location: /");
   }
-   
+
   ?>

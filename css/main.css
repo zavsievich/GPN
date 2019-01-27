@@ -388,6 +388,7 @@ li{
 .left-side{
     overflow: hidden;
     line-height: 1;
+    margin-bottom: 30px;
 }
 
 .big-text{
@@ -935,12 +936,6 @@ input{
 
     .overlay-head-element{
         margin: 10px auto;
-    }
-}
-
-@media (max-width: 1670px) {
-    .left-side{
-        margin-bottom: 30px;
     }
 }
 
