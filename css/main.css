@@ -501,6 +501,10 @@ li{
     display: none;
 }
 
+.btn {
+    height: 50px;
+}
+
 .btn:focus{
     color: var(--yellow);
 }

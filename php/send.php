@@ -23,7 +23,7 @@ if ($sendToTelegram) {
   } else {
     echo '<p class="fail"><b>Ошибка. Сообщение не отправлено!</b></p>';
   }
-  } else {
+   else {
     echo '<p class="fail">Ошибка. Вы заполнили не все обязательные поля!</p>';
   }
   } else {
