@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-134701412-1"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-134701412-1');</script>
+     <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(52425499, "init", { id:52425499, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/52425499" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="ремонт, iPhone, Минск, выездной, выезд, экран, оригинальный, корпус, батарея, камера, основная, фронтальная, шлейф, нижний, верхний, зарядка, наушники, микрофон, вспышка, динамик, виброматор, кнопка, home, 5s, 5se, 5c, 6, 6S, 6+, 6s+, 7, 7+, 8, 8+, X, низкий, ценник, выезд, любую, точку, города, ремонт iphone, замена стекло айфон, стекло iphone замена, ремонт apple, замена экран iphone, ремонт сотовый телефон, замена дисплей iphone 5s,замена экран айфон, дисплей замена, замена аккумулятор iphone, сервисный центр apple, ремонт кнопки home iphone, ремонт телефонов iphone, ремонт iphone 6s plus, ремонт кнопки home iphone 7,ремонт iphone сервисный центр">
@@ -61,7 +63,7 @@
                                     </label>
                                 </div>
                             </fieldset>
-                            <button class="top-btn">Отправить</button>
+                            <button class="top-btn js-button" onclick="location='../thanks.html';">Отправить</button>
                         </form>
                     </div>
                 </div>
@@ -327,7 +329,7 @@
                     <h4 class="overlay-head-element">
                         Отправка заявки
                     </h4>
-                    <form id="overlay-form" class="overlay-form form" action="php/send.php" method="POST" >
+                    <form id="overlay-form" class="overlay-form form" action="php/send.php" method="POST" onsubmit="alert('Спасибо! Заявка отправлена. Наш менеджер свяжется с вами.');return false>
                         <fieldset class="overlay-fieldset">
                             <div class="overlay-form-name">
                             </div>
@@ -346,7 +348,7 @@
                                 <br>
                             </div>
                         </fieldset>
-                        <button class="overlay-btn">Отправить</button>
+                        <button class="overlay-btn js-button" onclick="location='../thanks.html';">Отправить</button>
                     </form>
                     <button class="close">Закрыть форму</button>
                 </div>
@@ -464,7 +466,7 @@
                     оставьте заявку, и мы вам перезвоним:
                 </h3>
 
-                <form id="bottom-form" class="bottom-form form" action="php/send.php" method="POST">
+                <form id="bottom-form" class="bottom-form form" action="php/send.php" method="POST" onsubmit="alert('Спасибо! Заявка отправлена. Наш менеджер свяжется с вами.');return false>
                     <fieldset class="fieldset">
                         <div class="form-name">
                             Контактная информация
@@ -482,7 +484,7 @@
                             </label>
                         </div>
                     </fieldset>
-                    <button class="btn-sbm">Отправить</button>
+                    <button class="btn-sbm js-button" onclick="location='../thanks.html';">Отправить</button>
                 </form>
             </div>
         </section>
