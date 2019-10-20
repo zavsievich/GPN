@@ -1,2 +1,2 @@
 # GPN
-https://gpnservice.by/
+https://zavsievich.github.io/GPN/
